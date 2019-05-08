@@ -1,0 +1,1 @@
+http://gis.jogjaprov.go.id:8080/geoserver/wfs?access_token=09dc8c136eef11e994332c44fd82d820?format_options=charset%3AUTF-8&typename=geonode%3Aadmin_diy_pemendagri&outputFormat=SHAPE-ZIP&version=1.0.0&service=WFS&request=GetFeature&access_token=09dc8c136eef11e994332c44fd82d820

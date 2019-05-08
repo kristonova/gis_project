@@ -9,6 +9,10 @@ prov_indonesia_sf <- st_read("SHP_Indonesia_provinsi/INDONESIA_PROP.shp")
 kec_indonesia_sf <- st_read("SHP_Indonesia_kecamatan/INDONESIA_KEC.shp")
 indonesia_wrapper <- gadm_sf.loadCountries("IDN", level = 4, basefile = "./")
 
+#filter to the exact province
+diy_sf <- indonesia_sf %>%
+  filter(PROPINSI == "DI. Yogya")
+
 #look summary about spatial data
 class(indonesia_sf)
 head(indonesia_sf, 3)
